@@ -19,4 +19,12 @@ pole_trapez=1/2*(a_tr+b_tr)*h_tr
 obw_trapez=a_tr+b_tr+c_tr+d_tr
 print("Pole trapezu wynosi " + str(pole_trapez) + " a obwod wynosi " + str(obw_trapez))
 
+#romb
+a_ro=10
+e_ro=16
+f_ro=12
+obw_romb=4*a_ro
+pole_romb=1/2*e_ro*f_ro
+print("Pole rombu wynosi" + str(pole_romb) + " a obwod " +str(obw_romb))
+
 
