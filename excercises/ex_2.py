@@ -34,4 +34,11 @@ obwod_kol = 2*math.pi*r
 pole_kol=math.pi*math.pow(r,2)
 print("Pole kola wynosi " + str(pole_kol) + " a obwod " +str(obwod_kol))
 
+#prostokat
+a_pr=10
+b_pr=15
+obw_pr=2*(a_pr+b_pr)
+pole_pr=a_pr*b_pr
+print("Pole prostokata wynosi" + str(pole_pr) + " a obwod wynosi " +str(obw_pr))
+
 
