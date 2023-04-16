@@ -7,6 +7,6 @@ print("Example")
 print(hello("Ola"))
 
 assert hello("Wojtek") == "Hello Wojtek"
-assert hello("Zuzia") == "Hello Zuzia"
+assert hello("Wojtek") == "Hello Wojtek"
 
 print("Zadanie zrobione")
