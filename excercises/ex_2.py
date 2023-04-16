@@ -1,3 +1,4 @@
+import math
 #trojkat
 a=10
 b=12
@@ -26,5 +27,11 @@ f_ro=12
 obw_romb=4*a_ro
 pole_romb=1/2*e_ro*f_ro
 print("Pole rombu wynosi" + str(pole_romb) + " a obwod " +str(obw_romb))
+
+#kolo
+r=10
+obwod_kol = 2*math.pi*r
+pole_kol=math.pi*math.pow(r,2)
+print("Pole kola wynosi " + str(pole_kol) + " a obwod " +str(obwod_kol))
 
 
