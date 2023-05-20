@@ -43,3 +43,13 @@ studenci = ["Anna Szczesny", "Tomasz Nijaki", "Barbara Kowalska", "Jan Niezbedny
 studenci.sort(key=lambda x: x.split()[-1])
 for student in studenci:
     print(student)
+
+#Zadanie 1.9
+studenci = ["Anna Szczesny", "Tomasz Nijaki", "Barbara Kowalska", "Jan Niezbedny"]
+
+first_letter_list=[]
+for student in studenci:
+    first_letter=student[student.find(" ")+1]
+    first_letter_list.append(first_letter)
+n_num=first_letter_list.count("N")
+print("Liczba studentow na N wynosi: ",n_num)
