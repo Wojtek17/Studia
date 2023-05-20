@@ -37,4 +37,9 @@ studenci = ["Anna Szczesny", "Tomasz Nijaki", "Barbara Kowalska", "Jan Niezbedny
 studenci.sort()
 for student in studenci:
     print(student)
-    
+
+#Zadanie 1.8
+studenci = ["Anna Szczesny", "Tomasz Nijaki", "Barbara Kowalska", "Jan Niezbedny"]
+studenci.sort(key=lambda x: x.split()[-1])
+for student in studenci:
+    print(student)
