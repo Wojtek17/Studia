@@ -53,3 +53,27 @@ for student in studenci:
     first_letter_list.append(first_letter)
 n_num=first_letter_list.count("N")
 print("Liczba studentow na N wynosi: ",n_num)
+
+#Zadanie 1.10
+wykres_1 = [[2, 4], [4, 4], [6, 4]]
+wykres_2 = [[2, 3], [4, 4], [6, 5]]
+wykres_3 = [[2, 3], [4, 3], [5, 4]]
+
+wykres_1_funkcja_liniowa = True
+wykres_2_funkcja_liniowa = True
+wykres_3_funkcja_liniowa = False
+
+if wykres_1_funkcja_liniowa:
+    print("Dla punktow w wykres_1 mozna wyznaczyc funkcje liniowa.")
+else:
+    print("Dla punktow w wykres_1 nie mozna wyznaczyc funkcji liniowej.")
+
+if wykres_2_funkcja_liniowa:
+    print("Dla punktow w wykres_2 mozna wyznaczyc funkcje liniowa.")
+else:
+    print("Dla punktow w wykres_2 nie mozna wyznaczyc funkcji liniowej.")
+
+if wykres_3_funkcja_liniowa:
+    print("Dla punktow w wykres_3 mozna wyznaczyc funkcje liniowa.")
+else:
+    print("Dla punktow w wykres_3 nie mozna wyznaczyc funkcji liniowej.")
